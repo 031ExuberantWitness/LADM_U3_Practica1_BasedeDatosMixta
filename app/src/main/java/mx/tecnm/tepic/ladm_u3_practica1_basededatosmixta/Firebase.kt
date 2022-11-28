@@ -60,7 +60,7 @@ class Firebase : AppCompatActivity() {
             android.app.AlertDialog.Builder(this)
                 .setTitle("Atención:")
                 .setView(layin)
-                .setMessage("Elija cmapo para busqueda")
+                .setMessage("Elija un campo a buscar")
                 .setPositiveButton("Buscar"){d, i ->
                     consulta(comboCampos, claveBusqueda)
                     binding.quitarFiltro.isVisible = true
