@@ -29,6 +29,8 @@ class BuscarCandidato : AppCompatActivity() {
         setContentView(binding.root)
         mostrarTodos()
 
+        binding.quitarFiltro.isVisible = false
+
         if(isOnline(this)){
             AlertDialog.Builder(this)
                 .setTitle("Alerta: ")

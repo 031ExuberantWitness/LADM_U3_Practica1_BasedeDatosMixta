@@ -21,6 +21,7 @@ class Firebase : AppCompatActivity() {
         setContentView(binding.root)
 
         mostrar()
+        binding.quitarFiltro.isVisible = false
 
         binding.btnRegresar.setOnClickListener {
             val intent = Intent(binding.root.context, PantallaInicio::class.java)

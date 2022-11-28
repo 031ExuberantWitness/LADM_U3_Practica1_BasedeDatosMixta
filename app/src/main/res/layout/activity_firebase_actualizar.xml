@@ -69,6 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Preparatoria de origen"
+
             android:textSize="20sp"
             android:textColor="#212121"
             />
@@ -76,6 +77,7 @@
         <Spinner android:id="@+id/txtEscuela"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#0A58EC"
             android:textSize="20sp"
             />
 
@@ -116,7 +118,7 @@
                 <Spinner android:id="@+id/txtCarrera1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#212121"
+                    android:background="#0A58EC"
                     android:textSize="20sp"
                     />
             </LinearLayout>
@@ -137,8 +139,8 @@
 
                 <Spinner android:id="@+id/txtCarrera2"
                     android:layout_width="match_parent"
+                    android:background="#0A58EC"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#212121"
                     android:textSize="20sp"
                     />
             </LinearLayout>
