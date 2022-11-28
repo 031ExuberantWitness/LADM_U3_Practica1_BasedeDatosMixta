@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LADM_U3_Practica1_BasedeDatosMixta</string>
+
+    <string-array name="preparatorias">
+        <item>CECYTEN</item>
+        <item>ALICA</item>
+        <item>INSTITUTO MERCURIO</item>
+        <item>BENITO JUÁREZ</item>
+        <item>CONALEP</item>
+        <item>CUAUHTEMOC</item>
+        <item>UNIVER</item>
+        <item>VIZCAYA</item>
+    </string-array>
+
+    <string-array name="carreras">
+        <item>Arquitectura</item>
+        <item>Ingeniería Bioquímica</item>
+        <item>Ingeniería Civil</item>
+        <item>Ingeniería Eléctrica</item>
+        <item>Ingeniería en Gestión Empresarial </item>
+        <item>Ingeniería Industrial </item>
+        <item>Ingeniería Mecatrónica </item>
+        <item>Ingeniería en Sistemas Computacionales </item>
+    </string-array>
+</resources>

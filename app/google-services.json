@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437649483920",
+    "project_id": "u3practica1basededatosmixta",
+    "storage_bucket": "u3practica1basededatosmixta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437649483920:android:ac16b5ad73b9e2b2c89015",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ladm_u3_practica1_basededatosmixta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437649483920-1rtifc7tsvil3rl5k93nmsl46hq30a3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzKUf_20KN_-wr_aSv4DqvRliRjMj1ioM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437649483920-1rtifc7tsvil3rl5k93nmsl46hq30a3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

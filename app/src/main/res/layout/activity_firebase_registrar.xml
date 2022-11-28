@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    android:theme="@style/Theme.LADM_U3_Practica1_BasedeDatosMixta"
+    tools:context=".FirebaseRegistrar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <ImageButton android:id="@+id/btnRegresar"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:src="@drawable/regresar"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Firebase"
+                android:textSize="40dp"
+                android:textColor="#0A58EC"
+                android:fontFamily="@font/comforta"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Registrar"
+            android:textSize="30dp"
+            android:textColor="#0A58EC"
+            android:fontFamily="@font/comforta"
+            />
+
+        <TextView android:id="@+id/lblNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Nombre del alumno"
+            android:textSize="20sp"
+            android:textColor="#212121"/>
+
+        <EditText android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:backgroundTint="#212121"
+            />
+
+        <TextView android:id="@+id/lblEscuela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Preparatoria de origen"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            />
+
+        <Spinner android:id="@+id/txtEscuela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0A58EC"
+            android:textSize="20sp"
+            />
+
+        <TextView android:id="@+id/lblTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Telefono"
+            android:textSize="20sp"
+            android:textColor="#212121"/>
+
+        <EditText android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#212121"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView android:id="@+id/tlblCarrera1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Carrera 1"
+                    android:textSize="20sp"
+                    android:textColor="#212121"/>
+
+                <Spinner android:id="@+id/txtCarrera1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0A58EC"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical">
+
+                <TextView android:id="@+id/lblCarrera2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Carrera2"
+                    android:textSize="20sp"
+                    android:textColor="#212121"/>
+
+                <Spinner android:id="@+id/txtCarrera2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0A58EC"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView android:id="@+id/lblCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Correo electrónico"
+            android:textSize="20sp"
+            android:textColor="#212121"/>
+
+        <EditText android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#212121"
+            android:backgroundTint="#212121"
+            />
+
+        <TextView android:id="@+id/lblFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Fecha de registro"
+            android:textSize="20sp"
+            android:textColor="#212121"/>
+
+        <DatePicker android:id="@+id/txtFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#0A58EC"
+            android:backgroundTint="#0A58EC"
+            android:headerBackground="#0A58EC"
+            android:endYear="2022"
+            android:startYear="2022"
+            />
+
+        <Button android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#0A58EC"
+            android:fontFamily="@font/comforta"
+            android:textSize="20sp"
+            android:text="Registrar"/>
+
+    </LinearLayout>
+</ScrollView>

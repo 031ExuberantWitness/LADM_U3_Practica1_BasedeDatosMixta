@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/bebas" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/bebaskai" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/comforta" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/couture" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/ralewayt" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/roboto_condensed" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/roboto_light" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/roboto_medium" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/roboto_regular" />
+</font-family>

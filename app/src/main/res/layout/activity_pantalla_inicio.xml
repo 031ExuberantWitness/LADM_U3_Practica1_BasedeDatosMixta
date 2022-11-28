@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="40dp"
+    tools:context=".PantallaInicio">
+
+    <ImageView android:id="@+id/inicio_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/android"/>
+
+    <ImageView android:id="@+id/inicio_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_below="@id/inicio_android"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/inicio_estudiante"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/inicio_clusterBotones"
+        android:layout_marginBottom="10dp"
+        android:text="ALMACENAMIENTO LOCAL"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:fontFamily="@font/comforta"/>
+
+    <LinearLayout android:id="@+id/inicio_clusterBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lblAlmacenamientoNube"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        >
+
+        <Button android:id="@+id/btnRegistrar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#0A58EC"
+            android:text="Registrar"
+            android:textSize="20sp"
+            android:fontFamily="@font/comforta"/>
+
+        <Button android:id="@+id/btnBuscar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="#0A58EC"
+            android:text="Buscar"
+            android:textSize="20sp"
+            android:fontFamily="@font/comforta"/>
+    </LinearLayout>
+
+    <TextView android:id="@+id/lblAlmacenamientoNube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnFirebase"
+        android:layout_marginBottom="10dp"
+        android:text="ALMACENAMIENTO EN LA NUBE"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:fontFamily="@font/comforta"/>
+
+    <Button android:id="@+id/btnFirebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#0A58EC"
+        android:text="FireBase"
+        android:textSize="20sp"
+        android:fontFamily="@font/comforta"/>
+
+</RelativeLayout>
